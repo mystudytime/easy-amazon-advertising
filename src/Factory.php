@@ -26,16 +26,19 @@ class Factory
         switch ($name) {
             case 'SBrands':
                 $name = 'SponsoredBrands';
+
                 break;
             case 'SDisplay':
                 $name = 'SponsoredDisplay';
+
                 break;
             case 'SProducts':
                 $name = 'SponsoredProducts';
+
                 break;
             default:
         }
-        $namespace   = Kernel\Support\Str::studly($name);
+        $namespace = Kernel\Support\Str::studly($name);
         $application = "\\easyAmazonAdv\\{$namespace}\\Application";
 
         return new $application($config);
