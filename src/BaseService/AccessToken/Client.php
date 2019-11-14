@@ -13,7 +13,8 @@ use easyAmazonAdv\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * RefreshToken
+     * RefreshToken.
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
