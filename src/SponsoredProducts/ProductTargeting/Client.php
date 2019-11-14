@@ -27,7 +27,6 @@ class Client extends BaseClient
         return $this->httpGet('/sp/targets/extended/'.$targetId);
     }
 
-
     public function listTargetingClausesEx(array $params = [])
     {
         return $this->httpGet('/sp/targets/extended', $params);

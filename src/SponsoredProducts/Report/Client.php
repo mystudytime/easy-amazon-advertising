@@ -1,8 +1,6 @@
 <?php
 
-
 namespace easyAmazonAdv\SponsoredProducts\Report;
-
 
 use easyAmazonAdv\Kernel\BaseClient;
 
