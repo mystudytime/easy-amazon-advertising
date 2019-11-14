@@ -7,9 +7,11 @@ use easyAmazonAdv\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * requestReport
+     * requestReport.
+     *
      * @param string $recordType
-     * @param array $params
+     * @param array  $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -21,8 +23,10 @@ class Client extends BaseClient
     }
 
     /**
-     * getReport
+     * getReport.
+     *
      * @param string $reportId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -31,9 +35,10 @@ class Client extends BaseClient
     public function getReport(string $reportId)
     {
         $result = $this->httpGet("/reports/{$reportId}");
-        if ($result['success'] && $result["response"]['status'] == 'SUCCESS') {
-            return $this->httpDownload($result["response"]["location"]);
+        if ($result['success'] && 'SUCCESS' == $result['response']['status']) {
+            return $this->httpDownload($result['response']['location']);
         }
+
         return $result;
     }
 }
