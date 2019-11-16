@@ -34,13 +34,12 @@ class Client extends BaseClient
      *
      * @return mixed
      *
-     *
      * @author  baihe <b_aihe@163.com>
      * @date    2019-11-12 15:40
      */
     public function getProfile(int $profileId)
     {
-        return $this->httpGet('/profiles/' . $profileId);
+        return $this->httpGet('/profiles/'.$profileId);
     }
 
     /**
