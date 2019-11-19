@@ -13,8 +13,10 @@ use easyAmazonAdv\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * listKeywords
+     * listKeywords.
+     *
      * @param array $Keyword
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -26,8 +28,10 @@ class Client extends BaseClient
     }
 
     /**
-     * updateKeywords
+     * updateKeywords.
+     *
      * @param array $Keyword
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -38,10 +42,11 @@ class Client extends BaseClient
         return $this->httpPut('/sb/keywords', $Keyword);
     }
 
-
     /**
-     * createKeywords
+     * createKeywords.
+     *
      * @param array $Keyword
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -53,8 +58,10 @@ class Client extends BaseClient
     }
 
     /**
-     * getBiddableKeyword
+     * getBiddableKeyword.
+     *
      * @param string $keywordId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -66,8 +73,10 @@ class Client extends BaseClient
     }
 
     /**
-     * archiveKeyword
+     * archiveKeyword.
+     *
      * @param string $Keyword
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>

@@ -2,7 +2,6 @@
 
 namespace easyAmazonAdv\SponsoredBrands\Groups;
 
-
 use easyAmazonAdv\Kernel\BaseClient;
 
 /**
@@ -25,7 +24,7 @@ class Client extends BaseClient
      */
     public function getAdGroup(int $adGroupId)
     {
-        return $this->httpGet('/sb/adGroups/' . $adGroupId);
+        return $this->httpGet('/sb/adGroups/'.$adGroupId);
     }
 
     /**
