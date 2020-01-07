@@ -2,11 +2,9 @@
 
 namespace easyAmazonAdv\Kernel;
 
-use App\Http\Model\AdvGroups;
 use easyAmazonAdv\Kernel\Exceptions\InvalidArgumentException;
 use easyAmazonAdv\Kernel\Exceptions\InvalidConfigException;
 use GuzzleHttp\Client;
-use Illuminate\Support\Facades\DB;
 use Exception;
 
 class BaseClient
@@ -140,22 +138,23 @@ class BaseClient
     public function request(string $url, string $requestType, array $options)
     {
         $client = new Client();
-        try{
+
+        try {
             $response = $client->request($requestType, $url, $options);
             $httpCode = $response->getStatusCode();
             $message = \GuzzleHttp\json_decode($response->getBody(), true);
             if (!empty($response->getHeader('x-amz-request-id'))) {
                 $requestId = $response->getHeader('x-amz-request-id')[0];
             }
-        }catch (Exception $exception) {
+        } catch (Exception $exception) {
             $httpCode = $exception->getCode();
             $message = $exception->getMessage();
         }
 
         return [
-            'success'   => !empty($httpCode) && preg_match("/^(2|3)\d{2}$/", $httpCode) ? true : false,
-            'code'      => $httpCode,
-            'response'  => $message,
+            'success' => !empty($httpCode) && preg_match("/^(2|3)\d{2}$/", $httpCode) ? true : false,
+            'code' => $httpCode,
+            'response' => $message,
             'requestId' => !empty($requestId) ? $requestId : 0,
         ];
     }
