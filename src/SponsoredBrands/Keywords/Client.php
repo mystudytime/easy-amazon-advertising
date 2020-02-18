@@ -148,9 +148,10 @@ class Client extends BaseClient
     }
 
     /**
-     * keywordRecommendations
+     * keywordRecommendations.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -158,6 +159,6 @@ class Client extends BaseClient
      */
     public function keywordRecommendations(array $params)
     {
-        return $this->httpPost("/sb/recommendations/keyword", $params, [], false);
+        return $this->httpPost('/sb/recommendations/keyword', $params, [], false);
     }
 }

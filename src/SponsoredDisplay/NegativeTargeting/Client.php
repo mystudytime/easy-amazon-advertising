@@ -5,8 +5,7 @@ namespace easyAmazonAdv\SponsoredDisplay\NegativeTargeting;
 use easyAmazonAdv\Kernel\BaseClient;
 
 /**
- * Class Client
- * @package easyAmazonAdv\SponsoredDisplay\NegativeTargeting
+ * Class Client.
  *
  * @author  baihe <b_aihe@163.com>
  * @date    2020-02-17 14:59
@@ -14,9 +13,10 @@ use easyAmazonAdv\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * listNegativeTargetingClauses
+     * listNegativeTargetingClauses.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -28,8 +28,10 @@ class Client extends BaseClient
     }
 
     /**
-     * updateNegativeTargetingClauses
+     * updateNegativeTargetingClauses.
+     *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -41,9 +43,10 @@ class Client extends BaseClient
     }
 
     /**
-     * createNegativeTargetingClauses
+     * createNegativeTargetingClauses.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -66,13 +69,14 @@ class Client extends BaseClient
      */
     public function getNegativeTargetingClause(string $targetId)
     {
-        return $this->httpGet('/sd/negativeTargets/' . $targetId, [], false);
+        return $this->httpGet('/sd/negativeTargets/'.$targetId, [], false);
     }
 
     /**
-     * deleteNegativeTargetingClause
+     * deleteNegativeTargetingClause.
      *
      * @param string $targetId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -80,7 +84,7 @@ class Client extends BaseClient
      */
     public function deleteNegativeTargetingClause(string $targetId)
     {
-        return $this->httpDelete('/sd/negativeTargets/' . $targetId, [], [], false);
+        return $this->httpDelete('/sd/negativeTargets/'.$targetId, [], [], false);
     }
 
     /**
@@ -110,6 +114,6 @@ class Client extends BaseClient
      */
     public function getNegativeTargetingClauseEx(string $targetId)
     {
-        return $this->httpGet('/sd/negativeTargets/extended/' . $targetId, [], false);
+        return $this->httpGet('/sd/negativeTargets/extended/'.$targetId, [], false);
     }
 }
