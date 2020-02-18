@@ -5,8 +5,7 @@ namespace easyAmazonAdv\SponsoredDisplay\Targeting;
 use easyAmazonAdv\Kernel\BaseClient;
 
 /**
- * Class Client
- * @package easyAmazonAdv\SponsoredDisplay\Targeting
+ * Class Client.
  *
  * @author  baihe <b_aihe@163.com>
  * @date    2020-02-17 14:50
@@ -70,13 +69,14 @@ class Client extends BaseClient
      */
     public function getTargetingClause(string $targetId)
     {
-        return $this->httpGet('/sd/targets/' . $targetId, [], false);
+        return $this->httpGet('/sd/targets/'.$targetId, [], false);
     }
 
     /**
-     * deleteTargetingClause
+     * deleteTargetingClause.
      *
      * @param string $targetId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -84,7 +84,7 @@ class Client extends BaseClient
      */
     public function deleteTargetingClause(string $targetId)
     {
-        return $this->httpDelete('/sd/targets/' . $targetId, [], [], false);
+        return $this->httpDelete('/sd/targets/'.$targetId, [], [], false);
     }
 
     /**
@@ -114,6 +114,6 @@ class Client extends BaseClient
      */
     public function getTargetingClauseEx(string $targetId)
     {
-        return $this->httpGet('/sd/targets/extended/' . $targetId, [], false);
+        return $this->httpGet('/sd/targets/extended/'.$targetId, [], false);
     }
 }

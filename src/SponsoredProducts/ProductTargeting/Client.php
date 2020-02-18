@@ -24,7 +24,7 @@ class Client extends BaseClient
      */
     public function getTargetingClause(string $targetId)
     {
-        return $this->httpGet('/sp/targets/' . $targetId);
+        return $this->httpGet('/sp/targets/'.$targetId);
     }
 
     /**
@@ -54,7 +54,7 @@ class Client extends BaseClient
      */
     public function getTargetingClauseEx(string $targetId)
     {
-        return $this->httpGet('/sp/targets/extended/' . $targetId);
+        return $this->httpGet('/sp/targets/extended/'.$targetId);
     }
 
     /**
@@ -106,8 +106,8 @@ class Client extends BaseClient
      * createTargetRecommendations.
      *
      * @param array $asins
-     * @param int $pageNumber
-     * @param int $pageSize
+     * @param int   $pageNumber
+     * @param int   $pageSize
      *
      * @return mixed
      *
@@ -154,9 +154,11 @@ class Client extends BaseClient
     }
 
     /**
-     * getBrandRecommendations
+     * getBrandRecommendations.
+     *
      * @param string $type
      * @param string $content
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>

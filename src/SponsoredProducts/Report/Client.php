@@ -10,7 +10,7 @@ class Client extends BaseClient
      * requestReport.
      *
      * @param string $recordType
-     * @param array $params
+     * @param array  $params
      *
      * @return array
      *
