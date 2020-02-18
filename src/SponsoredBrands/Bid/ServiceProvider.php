@@ -2,7 +2,6 @@
 
 namespace easyAmazonAdv\SponsoredBrands\Bid;
 
-
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 
