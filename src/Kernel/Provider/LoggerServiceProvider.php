@@ -18,7 +18,8 @@ use Pimple\ServiceProviderInterface;
 class LoggerServiceProvider implements ServiceProviderInterface
 {
     /**
-     * register
+     * register.
+     *
      * @param Container $pimple
      *
      * @author  baihe <b_aihe@163.com>
@@ -27,9 +28,9 @@ class LoggerServiceProvider implements ServiceProviderInterface
     public function register(Container $pimple)
     {
         isset($pimple['logger']) || $pimple['logger'] = function ($app) {
-            $config    = $this->formatLogConfig($app);
-            $logger    = new Logger($config['channel']);
-            $stream    = new StreamHandler($config['path'], Logger::DEBUG);
+            $config = $this->formatLogConfig($app);
+            $logger = new Logger($config['channel']);
+            $stream = new StreamHandler($config['path'], Logger::DEBUG);
             $formatter = new LineFormatter(null, null, true, true);
             $stream->setFormatter($formatter);
             $logger->pushHandler($stream);
@@ -40,9 +41,10 @@ class LoggerServiceProvider implements ServiceProviderInterface
     }
 
     /**
-     * formatLogConfig 格式化日志
+     * formatLogConfig 格式化日志.
      *
      * @param $app
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -51,11 +53,12 @@ class LoggerServiceProvider implements ServiceProviderInterface
     public function formatLogConfig($app)
     {
         $config = $app['config']->toArray();
+
         return [
             'channel' => 'EasyAmazonAdv',
-            'path'    => isset($config['log']['path']) ? $config['log']['path'] : \sys_get_temp_dir() . '/logs/amazon/amazon_adv.log',
-            'level'   => isset($config['log']['level']) ? $config['log']['level'] : 'debug',
-            'type'    => isset($config['log']['type']) ? $config['log']['type'] : 'write',
+            'path' => isset($config['log']['path']) ? $config['log']['path'] : \sys_get_temp_dir().'/logs/amazon/amazon_adv.log',
+            'level' => isset($config['log']['level']) ? $config['log']['level'] : 'debug',
+            'type' => isset($config['log']['type']) ? $config['log']['type'] : 'write',
         ];
     }
 }

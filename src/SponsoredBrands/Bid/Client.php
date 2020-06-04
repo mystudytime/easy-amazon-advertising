@@ -13,9 +13,10 @@ use easyAmazonAdv\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * bidRecommendations
+     * bidRecommendations.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
