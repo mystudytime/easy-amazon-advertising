@@ -5,8 +5,7 @@ namespace easyAmazonAdv\SponsoredBrands\ProductTargeting;
 use easyAmazonAdv\Kernel\BaseClient;
 
 /**
- * Class Client
- * @package easyAmazonAdv\SponsoredBrands\ProductTargeting
+ * Class Client.
  *
  * @author  baihe <b_aihe@163.com>
  * @date    2020-02-18 15:37
@@ -14,8 +13,10 @@ use easyAmazonAdv\Kernel\BaseClient;
 class Client extends BaseClient
 {
     /**
-     * listTargeting
+     * listTargeting.
+     *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -42,9 +43,10 @@ class Client extends BaseClient
     }
 
     /**
-     * createTargetingClauses
+     * createTargetingClauses.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -56,9 +58,10 @@ class Client extends BaseClient
     }
 
     /**
-     * getTargetingClause
+     * getTargetingClause.
      *
      * @param string $targetId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -66,13 +69,14 @@ class Client extends BaseClient
      */
     public function getTargetingClause(string $targetId)
     {
-        return $this->httpGet('/sb/targets/' . $targetId, [], false);
+        return $this->httpGet('/sb/targets/'.$targetId, [], false);
     }
 
     /**
-     * archiveTargetingClauses
+     * archiveTargetingClauses.
      *
      * @param string $targetId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -80,13 +84,14 @@ class Client extends BaseClient
      */
     public function archiveTargetingClauses(string $targetId)
     {
-        return $this->httpDelete('/sb/targets/' . $targetId, [], [], false);
+        return $this->httpDelete('/sb/targets/'.$targetId, [], [], false);
     }
 
     /**
-     * batchGetTargetingClauses
+     * batchGetTargetingClauses.
      *
      * @param array $targetIds
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -98,8 +103,10 @@ class Client extends BaseClient
     }
 
     /**
-     * listNegativeTargetingClauses
+     * listNegativeTargetingClauses.
+     *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -111,9 +118,10 @@ class Client extends BaseClient
     }
 
     /**
-     * updateNegativeTargetingClauses
+     * updateNegativeTargetingClauses.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -125,8 +133,10 @@ class Client extends BaseClient
     }
 
     /**
-     * createNegativeTargetingClauses
+     * createNegativeTargetingClauses.
+     *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -138,9 +148,10 @@ class Client extends BaseClient
     }
 
     /**
-     * getNegativeTargetingClause
+     * getNegativeTargetingClause.
      *
      * @param string $targetId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -148,13 +159,14 @@ class Client extends BaseClient
      */
     public function getNegativeTargetingClause(string $targetId)
     {
-        return $this->httpGet('/sb/negativeTargets/' . $targetId, [], false);
+        return $this->httpGet('/sb/negativeTargets/'.$targetId, [], false);
     }
 
     /**
-     * archiveNegativeTargetingClauses
+     * archiveNegativeTargetingClauses.
      *
      * @param string $targetId
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -162,13 +174,14 @@ class Client extends BaseClient
      */
     public function archiveNegativeTargetingClauses(string $targetId)
     {
-        return $this->httpDelete('/sb/negativeTargets/' . $targetId, [], [], false);
+        return $this->httpDelete('/sb/negativeTargets/'.$targetId, [], [], false);
     }
 
     /**
-     * batchGetTargetingClauses
+     * batchGetTargetingClauses.
      *
      * @param array $targetIds
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -180,9 +193,10 @@ class Client extends BaseClient
     }
 
     /**
-     * listProductTargetRecommendations
+     * listProductTargetRecommendations.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -194,9 +208,10 @@ class Client extends BaseClient
     }
 
     /**
-     * listCategoryTargetRecommendations
+     * listCategoryTargetRecommendations.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -208,9 +223,10 @@ class Client extends BaseClient
     }
 
     /**
-     * listBrandTargetRecommendations
+     * listBrandTargetRecommendations.
      *
      * @param array $params
+     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>

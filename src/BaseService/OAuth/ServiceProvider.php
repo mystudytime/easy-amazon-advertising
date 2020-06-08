@@ -13,8 +13,7 @@ use Pimple\ServiceProviderInterface;
  */
 
 /**
- * Class ServiceProvider
- * @package easyAmazonAdv\BaseService\OAuth
+ * Class ServiceProvider.
  */
 class ServiceProvider implements ServiceProviderInterface
 {
