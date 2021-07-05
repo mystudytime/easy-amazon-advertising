@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * listPortfolios.
      *
-     * @param array $data
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * listPortfoliosEx.
-     *
-     * @param array $data
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * getPortfolio.
      *
-     * @param string $portfolioId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * getPortfolioEx.
-     *
-     * @param string $portfolioId
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * createPortfolios.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -89,8 +79,6 @@ class Client extends BaseClient
 
     /**
      * updatePortfolios.
-     *
-     * @param array $params
      *
      * @return array
      *

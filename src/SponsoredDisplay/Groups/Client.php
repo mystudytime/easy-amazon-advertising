@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getAdGroup.
      *
-     * @param int $adGroupId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * getAdGroupEx.
-     *
-     * @param int $adGroupId
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * createAdGroups.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * updateAdGroups.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * archiveAdGroup.
      *
-     * @param int $adGroupId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -90,8 +80,6 @@ class Client extends BaseClient
     /**
      * listAdGroups.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -104,8 +92,6 @@ class Client extends BaseClient
 
     /**
      * listAdGroupsEx.
-     *
-     * @param array $params
      *
      * @return array
      *

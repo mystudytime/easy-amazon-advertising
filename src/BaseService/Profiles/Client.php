@@ -28,8 +28,6 @@ class Client extends BaseClient
     /**
      * getProfile.
      *
-     * @param int $profileId
-     *
      * @return mixed
      *
      * @author  baihe <b_aihe@163.com>
@@ -42,8 +40,6 @@ class Client extends BaseClient
 
     /**
      * updateProfiles.
-     *
-     * @param array $profile
      *
      * @return mixed
      *

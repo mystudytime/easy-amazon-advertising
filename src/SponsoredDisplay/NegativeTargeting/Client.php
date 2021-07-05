@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * listNegativeTargetingClauses.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * updateNegativeTargetingClauses.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * createNegativeTargetingClauses.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * getNegativeTargetingClause.
-     *
-     * @param string $targetId
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * deleteNegativeTargetingClause.
      *
-     * @param string $targetId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -90,8 +80,6 @@ class Client extends BaseClient
     /**
      * listNegativeTargetingClausesEx.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -104,8 +92,6 @@ class Client extends BaseClient
 
     /**
      * getNegativeTargetingClauseEx.
-     *
-     * @param string $targetId
      *
      * @return array
      *

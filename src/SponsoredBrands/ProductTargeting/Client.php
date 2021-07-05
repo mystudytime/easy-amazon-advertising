@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * listTargeting.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * updateTargetingClauses.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * createTargetingClauses.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * getTargetingClause.
-     *
-     * @param string $targetId
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * archiveTargetingClauses.
      *
-     * @param string $targetId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -89,8 +79,6 @@ class Client extends BaseClient
 
     /**
      * batchGetTargetingClauses.
-     *
-     * @param array $targetIds
      *
      * @return array
      *
@@ -105,8 +93,6 @@ class Client extends BaseClient
     /**
      * listNegativeTargetingClauses.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -119,8 +105,6 @@ class Client extends BaseClient
 
     /**
      * updateNegativeTargetingClauses.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -135,8 +119,6 @@ class Client extends BaseClient
     /**
      * createNegativeTargetingClauses.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -149,8 +131,6 @@ class Client extends BaseClient
 
     /**
      * getNegativeTargetingClause.
-     *
-     * @param string $targetId
      *
      * @return array
      *
@@ -165,8 +145,6 @@ class Client extends BaseClient
     /**
      * archiveNegativeTargetingClauses.
      *
-     * @param string $targetId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -179,8 +157,6 @@ class Client extends BaseClient
 
     /**
      * batchGetTargetingClauses.
-     *
-     * @param array $targetIds
      *
      * @return array
      *
@@ -195,8 +171,6 @@ class Client extends BaseClient
     /**
      * listProductTargetRecommendations.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -210,8 +184,6 @@ class Client extends BaseClient
     /**
      * listCategoryTargetRecommendations.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -224,8 +196,6 @@ class Client extends BaseClient
 
     /**
      * listBrandTargetRecommendations.
-     *
-     * @param array $params
      *
      * @return array
      *

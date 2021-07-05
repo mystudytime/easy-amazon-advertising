@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getBiddableKeyword.
      *
-     * @param string $keywordId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * getBiddableKeywordEx.
-     *
-     * @param string $keywordId
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * createKeywords.
      *
-     * @param array $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * updateKeywords.
-     *
-     * @param array $Keyword
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * archiveBiddableKeyword.
      *
-     * @param string $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -89,8 +79,6 @@ class Client extends BaseClient
 
     /**
      * listBiddableKeywords.
-     *
-     * @param array $Keyword
      *
      * @return array
      *
@@ -105,8 +93,6 @@ class Client extends BaseClient
     /**
      * listBiddableKeywordsEx.
      *
-     * @param array $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -119,8 +105,6 @@ class Client extends BaseClient
 
     /**
      * getNegativeKeyword.
-     *
-     * @param string $keywordId
      *
      * @return array
      *
@@ -135,8 +119,6 @@ class Client extends BaseClient
     /**
      * getNegativeKeywordEx.
      *
-     * @param string $keywordId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -149,8 +131,6 @@ class Client extends BaseClient
 
     /**
      * createNegativeKeywords.
-     *
-     * @param array $Keyword
      *
      * @return array
      *
@@ -165,8 +145,6 @@ class Client extends BaseClient
     /**
      * updateNegativeKeywords.
      *
-     * @param array $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -179,8 +157,6 @@ class Client extends BaseClient
 
     /**
      * archiveNegativeKeyword.
-     *
-     * @param string $Keyword
      *
      * @return array
      *
@@ -195,8 +171,6 @@ class Client extends BaseClient
     /**
      * listNegativeKeywords.
      *
-     * @param array $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -209,8 +183,6 @@ class Client extends BaseClient
 
     /**
      * listNegativeKeywordsEx.
-     *
-     * @param array $Keyword
      *
      * @return array
      *
@@ -225,8 +197,6 @@ class Client extends BaseClient
     /**
      * getCampaignNegativeKeyword.
      *
-     * @param string $keywordId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -239,8 +209,6 @@ class Client extends BaseClient
 
     /**
      * getCampaignNegativeKeywordEx.
-     *
-     * @param string $keywordId
      *
      * @return array
      *
@@ -255,8 +223,6 @@ class Client extends BaseClient
     /**
      * createCampaignNegativeKeywords.
      *
-     * @param array $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -269,8 +235,6 @@ class Client extends BaseClient
 
     /**
      * updateCampaignNegativeKeywords.
-     *
-     * @param array $Keyword
      *
      * @return array
      *
@@ -285,8 +249,6 @@ class Client extends BaseClient
     /**
      * archiveCampaignNegativeKeyword.
      *
-     * @param string $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -299,8 +261,6 @@ class Client extends BaseClient
 
     /**
      * listCampaignNegativeKeywords.
-     *
-     * @param array $Keyword
      *
      * @return array
      *
@@ -315,8 +275,6 @@ class Client extends BaseClient
     /**
      * listCampaignNegativeKeywordsEx.
      *
-     * @param array $Keyword
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -329,9 +287,6 @@ class Client extends BaseClient
 
     /**
      * getAdGroupSuggestedKeywords.
-     *
-     * @param int   $adGroupId
-     * @param array $params
      *
      * @return array
      *
@@ -346,7 +301,6 @@ class Client extends BaseClient
     /**
      * getAdGroupSuggestedKeywordsEx.
      *
-     * @param int   $adGroupId
      * @param array $params
      *
      * @return array
@@ -362,8 +316,7 @@ class Client extends BaseClient
     /**
      * getAsinSuggestedKeywords.
      *
-     * @param string $asinValue
-     * @param array  $params
+     * @param array $params
      *
      * @return array
      *
@@ -377,8 +330,6 @@ class Client extends BaseClient
 
     /**
      * bulkGetAsinSuggestedKeywords.
-     *
-     * @param array $params
      *
      * @return array
      *

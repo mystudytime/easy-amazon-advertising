@@ -20,8 +20,6 @@ class LoggerServiceProvider implements ServiceProviderInterface
     /**
      * register.
      *
-     * @param Container $pimple
-     *
      * @author  baihe <b_aihe@163.com>
      * @date    2020-02-10 14:29
      */

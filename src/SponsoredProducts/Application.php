@@ -34,7 +34,6 @@ class Application extends Container
      * Application constructor.
      *
      * @param array $config
-     * @param array $values
      */
     public function __construct($config = [], array $values = [])
     {

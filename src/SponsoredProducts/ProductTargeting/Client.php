@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getTargetingClause.
      *
-     * @param string $targetId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * listTargetingClauses.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * getTargetingClauseEx.
      *
-     * @param string $targetId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * listTargetingClausesEx.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * createTargetingClauses.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -89,8 +79,6 @@ class Client extends BaseClient
 
     /**
      * updateTargetingClauses.
-     *
-     * @param array $params
      *
      * @return array
      *
@@ -105,10 +93,6 @@ class Client extends BaseClient
     /**
      * createTargetRecommendations.
      *
-     * @param array $asins
-     * @param int   $pageNumber
-     * @param int   $pageSize
-     *
      * @return mixed
      *
      * @author  baihe <b_aihe@163.com>
@@ -121,8 +105,6 @@ class Client extends BaseClient
 
     /**
      * getTargetingCategories 根据传入的ains返回推荐的分类列表.
-     *
-     * @param array $asins
      *
      * @return mixed
      *
@@ -139,8 +121,6 @@ class Client extends BaseClient
     /**
      * getRefinementsForCategory 返回单个分类$categoryId对应的细化选项.
      *
-     * @param int $categoryId
-     *
      * @return mixed
      *
      * @example {"categoryId":2407755011,"brands":[{"id":20710054011,"name":"APPLE"},{"id":2528944011,"name":"Apple"},{"id":7637061011,"name":"amFilm"},{"id":19838852011,"name":"INIU"},{"id":2528919011,"name":"AmazonBasics"},{"id":20051359011,"name":"Spigen"},{"id":8886508011,"name":"Mpow"}],"ageRanges":[]}
@@ -155,9 +135,6 @@ class Client extends BaseClient
 
     /**
      * getBrandRecommendations.
-     *
-     * @param string $type
-     * @param string $content
      *
      * @return array
      *

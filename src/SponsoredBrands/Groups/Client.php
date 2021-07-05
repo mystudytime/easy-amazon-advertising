@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getAdGroup.
      *
-     * @param int $adGroupId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * listAdGroups.
-     *
-     * @param array $params
      *
      * @return array
      *

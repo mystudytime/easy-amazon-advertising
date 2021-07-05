@@ -14,7 +14,6 @@ class Factory
      * make.
      *
      * @param $name
-     * @param array $config
      *
      * @return mixed
      *

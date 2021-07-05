@@ -26,8 +26,6 @@ class Client extends BaseClient
     /**
      * token 根据亚马逊生成code，获取亚马逊授权refresh_token.
      *
-     * @return array
-     *
      * @author  baihe <b_aihe@163.com>
      * @date    2020-06-04 21:32
      */

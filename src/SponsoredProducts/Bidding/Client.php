@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getAdGroupBidRecommendations.
      *
-     * @param int $adGroupId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * getKeywordBidRecommendations.
-     *
-     * @param int $keywordId
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * createKeywordBidRecommendations.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * getBidRecommendations.
-     *
-     * @param array $params
      *
      * @return array
      *

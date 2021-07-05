@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getProductAd.
      *
-     * @param int $adId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * getProductAdEx.
-     *
-     * @param int $adId
      *
      * @return array
      *
@@ -45,8 +41,6 @@ class Client extends BaseClient
     /**
      * createProductAds.
      *
-     * @param array $products
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -59,8 +53,6 @@ class Client extends BaseClient
 
     /**
      * updateProductAds.
-     *
-     * @param array $products
      *
      * @return array
      *
@@ -75,8 +67,6 @@ class Client extends BaseClient
     /**
      * archiveProductAd.
      *
-     * @param int $adId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -90,8 +80,6 @@ class Client extends BaseClient
     /**
      * listProductAds.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -104,8 +92,6 @@ class Client extends BaseClient
 
     /**
      * listProductAdsEx.
-     *
-     * @param array $params
      *
      * @return array
      *

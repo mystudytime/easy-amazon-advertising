@@ -9,9 +9,6 @@ class Client extends BaseClient
     /**
      * requestReport.
      *
-     * @param string $recordType
-     * @param array  $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -24,8 +21,6 @@ class Client extends BaseClient
 
     /**
      * getReport.
-     *
-     * @param string $reportId
      *
      * @return array
      *
@@ -40,7 +35,6 @@ class Client extends BaseClient
     /**
      * downloadReportData.
      *
-     * @param string $reportId
      * @param $params
      *
      * @return array

@@ -233,10 +233,6 @@ class BaseClient
     /**
      * request.
      *
-     * @param string $url
-     * @param string $requestType
-     * @param array  $options
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -269,9 +265,7 @@ class BaseClient
     /**
      * httpGet.
      *
-     * @param string $url
-     * @param array  $data
-     * @param bool   $isVersion
+     * @param bool $isVersion
      *
      * @return array
      *
@@ -297,10 +291,7 @@ class BaseClient
     /**
      * httpPost.
      *
-     * @param string $url
-     * @param array  $data
-     * @param array  $query
-     * @param bool   $isVersion
+     * @param bool $isVersion
      *
      * @return array
      *
@@ -326,10 +317,7 @@ class BaseClient
     /**
      * httpPut.
      *
-     * @param string $url
-     * @param array  $data
-     * @param array  $query
-     * @param bool   $isVersion
+     * @param bool $isVersion
      *
      * @return array
      *
@@ -355,10 +343,7 @@ class BaseClient
     /**
      * httpDelete.
      *
-     * @param string $url
-     * @param array  $data
-     * @param array  $query
-     * @param bool   $isVersion
+     * @param bool $isVersion
      *
      * @return array
      *
@@ -383,9 +368,7 @@ class BaseClient
     /**
      * httpDownload.
      *
-     * @param string $url
-     * @param array  $data
-     * @param bool   $isVersion
+     * @param bool $isVersion
      *
      * @return array
      *
@@ -429,7 +412,6 @@ class BaseClient
      * read_gz 读取压缩文件.
      *
      * @param $gz_file
-     * @param int $buffer_size
      *
      * @return string
      *
@@ -451,11 +433,8 @@ class BaseClient
     /**
      * sendWriteLog.
      *
-     * @param string $requestId
-     * @param string $requestType
-     * @param string $url
-     * @param array  $options
-     * @param array  $message
+     * @param array $options
+     * @param array $message
      *
      * @author  baihe <b_aihe@163.com>
      * @date    2020-02-06 11:18
@@ -489,11 +468,8 @@ class BaseClient
     /**
      * writeLog.
      *
-     * @param string $requestId
-     * @param string $requestType
-     * @param string $url
-     * @param array  $options
-     * @param array  $message
+     * @param array $options
+     * @param array $message
      *
      * @author  baihe <b_aihe@163.com>
      * @date    2020-02-06 11:18

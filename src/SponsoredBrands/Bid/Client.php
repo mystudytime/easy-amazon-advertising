@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * bidRecommendations.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>

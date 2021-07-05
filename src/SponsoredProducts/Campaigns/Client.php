@@ -15,8 +15,6 @@ class Client extends BaseClient
     /**
      * getCampaign.
      *
-     * @param int $campaignId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -29,8 +27,6 @@ class Client extends BaseClient
 
     /**
      * getCampaignEx.
-     *
-     * @param int $campaignId
      *
      * @return array
      *
@@ -75,8 +71,6 @@ class Client extends BaseClient
     /**
      * archiveCampaign.
      *
-     * @param int $campaignId
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -90,8 +84,6 @@ class Client extends BaseClient
     /**
      * listCampaigns.
      *
-     * @param array $params
-     *
      * @return array
      *
      * @author  baihe <b_aihe@163.com>
@@ -104,8 +96,6 @@ class Client extends BaseClient
 
     /**
      * listCampaignsEx.
-     *
-     * @param array $params
      *
      * @return array
      *
